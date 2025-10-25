@@ -1,3 +1,2 @@
-#!/usr/bin/python3
-for i in range(97, 123):
-    print("{}".format(chr(i)), end="")
+#!/bin/bash
+python3 2-print_alphabet.py "$@"

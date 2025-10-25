@@ -1,3 +1,2 @@
-#!/usr/bin/python3
-def add(a, b):
-    return a + b
+#!/bin/bash
+python3 10-add.py "$@"
