@@ -2,7 +2,7 @@ const addDiv = document.getElementById('add_item');
 const ulList = document.querySelector('.my_list');
 
 addDiv.addEventListener('click', () => {
-  const li = document.createElement('li');
-  li.textContent = 'Item';
-  ulList.appendChild(li);
+  const i = document.createElement('i');
+  i.textContent = 'Item';
+  ulList.appendChild(i);
 });

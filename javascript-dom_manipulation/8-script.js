@@ -6,5 +6,5 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       helloDiv.textContent = data.hello;
     })
-    .catch(error => console.error('Xəta:', error));
+    .catch(error => console.error(error));
 });

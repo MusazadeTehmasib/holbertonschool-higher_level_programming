@@ -9,4 +9,4 @@ fetch('https://swapi-api.hbtn.io/api/films/?format=json')
       listMovies.appendChild(li);
     });
   })
-  .catch(error => console.error('Xəta:', error));
+  .catch(error => console.error(error));
